@@ -1,102 +1,48 @@
 body {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fff1f2;
-    color: #3d3d3d;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff7ed;
+    color: #4b2e1f;
   }
   
-  /* Encabezado */
   header {
-    background-color: #fbcfe8;
+    background-color: #f97316;
     padding: 1.5rem;
     text-align: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    color: white;
   }
   
-  header h1 {
-    font-size: 2.5rem;
-    color: #831843;
-  }
-  
-  nav {
-    margin-top: 1rem;
-  }
-  
-  nav a {
-    margin: 0 1rem;
-    text-decoration: none;
-    color: #9d174d;
-    font-weight: 500;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Sección de bienvenida */
-  section {
-    padding: 2rem;
+  main {
+    padding: 1.5rem;
     text-align: center;
   }
   
-  section h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #9d174d;
+  .galeria {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
   }
   
-  section p {
-    max-width: 600px;
-    margin: 0 auto;
-    font-size: 1.1rem;
-    color: #4b5563;
-  }
-  
-  /* Galería de productos */
-  .products {
-    background-color: #ffffff;
-    padding: 3rem 1.5rem;
-  }
-  
-  .products h3 {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-    color: #831843;
-  }
-  
-  .product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1.5rem;
-  }
-  
-  .product-card {
-    background-color: #ffe4e6;
+  .producto {
+    background-color: #fde68a;
     padding: 1rem;
-    border-radius: 1rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-    text-align: center;
+    border-radius: 10px;
+    width: 200px;
   }
   
-  .product-card img {
-    border-radius: 0.75rem;
+  .producto img {
     width: 100%;
     height: auto;
-    margin-bottom: 1rem;
+    border-radius: 8px;
   }
   
-  .product-card h4 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    color: #7f1d1d;
-  }
-  
-  /* Pie de página */
   footer {
-    background-color: #fbcfe8;
+    background-color: #fb923c;
     text-align: center;
-    padding: 1.5rem;
-    font-size: 0.9rem;
-    color: #9d174d;
+    padding: 1rem;
     margin-top: 2rem;
+    color: white;
+    font-size: 0.9rem;
   }
